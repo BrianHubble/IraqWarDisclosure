@@ -44,11 +44,12 @@ var json = {
 function walk (rootNode) {
   // Find all the text nodes in rootNode
   var walker = document.createTreeWalker(rootNode, NodeFilter.SHOW_TEXT, null, false);
-  var node;
+  var node = walker.nextNode();
 
   // Modify each text node's value
-  while (node = walker.nextNode()) {
+  while (node) {
     handleText(node);
+    node = walker.nextNode();
   }
 }
 
@@ -100,13 +101,13 @@ function observerCallback (mutations) {
 
 // Walk the doc (document) body, replace the title, and observe the body and title
 function walkAndObserve (doc) {
-  var docTitle = doc.getElementsByTagName('title')[0],
-    observerConfig = {
-      characterData: true,
-      childList: true,
-      subtree: true
-    },
-    bodyObserver, titleObserver;
+  var docTitle = doc.getElementsByTagName('title')[0];
+  var observerConfig = {
+    characterData: true,
+    childList: true,
+    subtree: true
+  };
+  var bodyObserver, titleObserver;
 
   // Do the initial text replacements in the document body and title
   walk(doc.body);
@@ -122,4 +123,5 @@ function walkAndObserve (doc) {
     titleObserver.observe(docTitle, observerConfig);
   }
 }
+
 walkAndObserve(document);
