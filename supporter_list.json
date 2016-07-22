@@ -3,7 +3,10 @@
         {
             "name": "Hillary Clinton",
             "text_to_replace": [
-                "Hillary Clinton"
+                "Hillary Clinton",
+                "Hillary Rodham Clinton",
+                "Hillary R. Clinton",
+                "HRC"
             ]
         },
         {
@@ -23,6 +26,13 @@
             "name": "Eli Lake",
             "text_to_replace": [
                 "Eli Lake"
+            ]
+        },
+        {
+            "name": "Donald Trump",
+            "text_to_replace": [
+                "Donald Trump",
+                "Donald J. Trump"
             ]
         }
     ]
