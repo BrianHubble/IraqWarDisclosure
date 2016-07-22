@@ -47,3 +47,8 @@ Session.vim
 *~
 # auto-generated tag files
 tags
+
+### Chrome Extension ###
+# private files
+*.pem
+*.zip
