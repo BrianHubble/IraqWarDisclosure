@@ -1,45 +1,37 @@
 /* globals NodeFilter: false */
 /* globals MutationObserver: false */
 
-var json = {
-    "supporters": [
-        {
-            "name": "Hillary Clinton",
-            "text_to_replace": [
-                "Hillary Clinton",
-                "Hillary Rodham Clinton",
-                "Hillary R. Clinton",
-                "HRC"
-            ]
-        },
-        {
-            "name": "Matthew Yglesias",
-            "text_to_replace": [
-                "Matthew Yglesias",
-                "Matty Yglesias"
-            ]
-        },
-        {
-            "name": "Dan Savage",
-            "text_to_replace": [
-                "Dan Savage"
-            ]
-        },
-        {
-            "name": "Eli Lake",
-            "text_to_replace": [
-                "Eli Lake"
-            ]
-        },
-        {
-          "name": "Donald Trump",
-          "text_to_replace": [
-            "Donald Trump",
-            "Donald J. Trump"
-          ]
-        }
-    ]
-};
+var json = null;
+
+// simple chrome ajax helper
+function ajaxGet (url, callback) {
+  console.log('get');
+  var ajaxCallback;
+  ajaxCallback = (typeof callback === 'function' ? callback : false);
+  var xhr = null;
+  try {
+    xhr = new window.XMLHttpRequest();
+  } catch (e) {
+    console.log('oops');
+  }
+  if (!xhr) {
+    return null;
+  }
+  xhr.open('GET', url, true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && ajaxCallback) {
+      ajaxCallback(xhr.responseText);
+    }
+  };
+
+  xhr.send(null);
+  return xhr;
+}
+
+function loadJson (ajaxResponse) {
+  json = JSON.parse(ajaxResponse);
+  walkAndObserve(document);
+}
 
 function walk (rootNode) {
   // Find all the text nodes in rootNode
@@ -124,4 +116,4 @@ function walkAndObserve (doc) {
   }
 }
 
-walkAndObserve(document);
+ajaxGet('https://raw.githubusercontent.com/BrianHubble/IraqWarDisclosure/master/supporter_list.json', loadJson);
