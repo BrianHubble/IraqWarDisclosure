@@ -1,6 +1,15 @@
 {
     "supporters": [
         {
+            "name": "George Bush",
+            "text_to_replace": [
+                "George Bush",
+                "George W. Bush",
+                "George Walker Bush",
+                "George Herbert Walker Bush"
+            ]
+        },
+        {
             "name": "Hillary Clinton",
             "text_to_replace": [
                 "Hillary Clinton",
@@ -33,6 +42,309 @@
             "text_to_replace": [
                 "Donald Trump",
                 "Donald J. Trump"
+            ]
+        },
+        {
+            "name": "Dick Cheney",
+            "text_to_replace": [
+                "Dick Cheney",
+                "Richard Cheney"
+            ]
+        },
+        {
+            "name": "Jeb Bush",
+            "text_to_replace": [
+                "Jeb Bush"
+            ]
+        },
+        {
+            "name": "Colin Powell",
+            "text_to_replace": [
+                "Colin Powell"
+            ]
+        },
+        {
+            "name": "James Woolsey",
+            "text_to_replace": [
+                "James Woolsey"
+            ]
+        },
+        {
+            "name": "John Kerry",
+            "text_to_replace": [
+                "John Kerry"
+            ]
+        },
+        {
+            "name": "Donald Rumsfeld",
+            "text_to_replace": [
+                "Donald Rumsfeld"
+            ]
+        },
+        {
+            "name": "Paul Wolfowitz",
+            "text_to_replace": [
+                "Paul Wolfowitz"
+            ]
+        },
+        {
+            "name": "Robert Kagan",
+            "text_to_replace": [
+                "Robert Kagan"
+            ]
+        },
+        {
+            "name": "Douglas J. Feith",
+            "text_to_replace": [
+                "Douglas J. Feith",
+                "Douglas Feith"
+            ]
+        },
+        {
+            "name": "Bill Kristol",
+            "text_to_replace": [
+                "Bill Kristol",
+                "William Kristol"
+            ]
+        },
+        {
+            "name": "Scooter Libby",
+            "text_to_replace": [
+                "Scooter Libby",
+                "\"Scooter\" Libby",
+                "I. Lewis Libby"
+            ]
+        },
+        {
+            "name": "Peter Feaver",
+            "text_to_replace": [
+                "Peter Feaver"
+            ]
+        },
+        {
+            "name": "Bruce Jackson",
+            "text_to_replace": [
+                "Bruce Jackson"
+            ]
+        },
+        {
+            "name": "Stephen Cambone",
+            "text_to_replace": [
+                "Stephen Cambone"
+            ]
+        },
+        {
+            "name": "Charles Johnson",
+            "text_to_replace": [
+                "Charles Johnson"
+            ]
+        },
+        {
+            "name": "Andrew Sullivan",
+            "text_to_replace": [
+                "Andrew Sullivan"
+            ]
+        },
+        {
+            "name": "Will Marshall",
+            "text_to_replace": [
+                "Will Marshall",
+                "William Marshall"
+            ]
+        },
+        {
+            "name": "Richard Cohen",
+            "text_to_replace": [
+                "Richard Cohen"
+            ]
+        },
+        {
+            "name": "Charles Krauthammer",
+            "text_to_replace": [
+                "Charles Krauthammer"
+            ]
+        },
+        {
+            "name": "Judith Miller",
+            "text_to_replace": [
+                "Judith Miller"
+            ]
+        },
+        {
+            "name": "Thomas Friedman",
+            "text_to_replace": [
+                "Thomas Friedman",
+                "Tom Friedman"
+            ]
+        },
+        {
+            "name": "Fred Barnes",
+            "text_to_replace": [
+                "Fred Barnes"
+            ]
+        },
+        {
+            "name": "Joe Biden",
+            "text_to_replace": [
+                "Joe Biden",
+                "Joseph Biden"
+            ]
+        },
+        {
+            "name": "Evan Bayh",
+            "text_to_replace": [
+                "Evan Bayh"
+            ]
+        },
+        {
+            "name": "Max Baucus",
+            "text_to_replace": [
+                "Max Baucus"
+            ]
+        },
+        {
+            "name": "John Breaux",
+            "text_to_replace": [
+                "John Breaux"
+            ]
+        },
+        {
+            "name": "Maria Cantwell",
+            "text_to_replace": [
+                "Maria Cantwell"
+            ]
+        },
+        {
+            "name": "Jean Carnahan",
+            "text_to_replace": [
+                "Jean Carnahan"
+            ]
+        },
+        {
+            "name": "Thomas Carper",
+            "text_to_replace": [
+                "Thomas Carper"
+            ]
+        },
+        {
+            "name": "Max Cleland",
+            "text_to_replace": [
+                "Max Cleland"
+            ]
+        },
+        {
+            "name": "Tom Daschle",
+            "text_to_replace": [
+                "Tom Daschle"
+            ]
+        },
+        {
+            "name": "Chris Dodd",
+            "text_to_replace": [
+                "Chris Dodd"
+            ]
+        },
+        {
+            "name": "Byron Dorgan",
+            "text_to_replace": [
+                "Byron Dorgan"
+            ]
+        },
+        {
+            "name": "John Edwards",
+            "text_to_replace": [
+                "John Edwards"
+            ]
+        },
+        {
+            "name": "Diane Feinstein",
+            "text_to_replace": [
+                "Diane Feinstein"
+            ]
+        },
+        {
+            "name": "Tom Harkin",
+            "text_to_replace": [
+                "Tom Harkin"
+            ]
+        },
+        {
+            "name": "Ernest Hollings",
+            "text_to_replace": [
+                "Ernest Hollings"
+            ]
+        },
+        {
+            "name": "Tim Johnson",
+            "text_to_replace": [
+                "Tim Johnson"
+            ]
+        },
+        {
+            "name": "Herb Kohl",
+            "text_to_replace": [
+                "Herb Kohl"
+            ]
+        },
+        {
+            "name": "Mary Landrieu",
+            "text_to_replace": [
+                "Mary Landrieu"
+            ]
+        },
+        {
+            "name": "Joe Lieberman",
+            "text_to_replace": [
+                "Joe  Lieberman",
+                "Joseph Lieberman"
+            ]
+        },
+        {
+            "name": "Blanche Lincoln",
+            "text_to_replace": [
+                "Blanche Lincoln"
+            ]
+        },
+        {
+            "name": "Zell Miller",
+            "text_to_replace": [
+                "Zell Miller"
+            ]
+        },
+        {
+            "name": "Ben Nelson",
+            "text_to_replace": [
+                "Ben Nelson"
+            ]
+        },
+        {
+            "name": "Bill Nelson",
+            "text_to_replace": [
+                "Bill Nelson"
+            ]
+        },
+        {
+            "name": "Harry Reid",
+            "text_to_replace": [
+                "Harry Reid"
+            ]
+        },
+        {
+            "name": "Jay Rockefeller",
+            "text_to_replace": [
+                "Jay Rockefeller"
+            ]
+        },
+        {
+            "name": "Chuck Schumer",
+            "text_to_replace": [
+                "Chuck Schumer"
+            ]
+        },
+        {
+            "name": "Robert Torricelli",
+            "text_to_replace": [
+                "Robert Torricelli"
             ]
         }
     ]
