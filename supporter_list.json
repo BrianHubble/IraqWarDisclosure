@@ -346,6 +346,12 @@
             "text_to_replace": [
                 "Robert Torricelli"
             ]
+        },
+        {
+            "name": "David Frum",
+            "text_to_replace": [
+                "David Frum"
+            ]
         }
     ]
 }
