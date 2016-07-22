@@ -1,8 +1,29 @@
 {
     "supporters": [
         {
-            "name": "",
-            "text_to_replace": []
+            "name": "Hillary Clinton",
+            "text_to_replace": [
+                "Hillary Clinton"
+            ]
+        },
+        {
+            "name": "Matthew Yglesias",
+            "text_to_replace": [
+                "Matthew Yglesias",
+                "Matty Yglesias"
+            ]
+        },
+        {
+            "name": "Dan Savage",
+            "text_to_replace": [
+                "Dan Savage"
+            ]
+        },
+        {
+            "name": "Eli Lake",
+            "text_to_replace": [
+                "Eli Lake"
+            ]
         }
     ]
 }
