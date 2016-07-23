@@ -52,3 +52,4 @@ tags
 # private files
 *.pem
 *.zip
+*.crx
