@@ -352,6 +352,18 @@
             "text_to_replace": [
                 "David Frum"
             ]
-        }
+        },
+	{
+	    "name": "Robert Kagan",
+	    "text_to_replace": [
+	        "Robert Kagan"
+	    ]
+	},
+	{
+	    "name": "Jonathan Chait",
+	    "text_to_replace": [
+	        "Jonathan Chait",
+		"Jon Chait"
+	}
     ]
 }
