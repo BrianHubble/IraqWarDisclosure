@@ -364,6 +364,13 @@
 	    "text_to_replace": [
 	        "Jonathan Chait",
 		"Jon Chait"
+	    ]
+	},
+	{
+	    "name": "Andrew Sullivan",
+	    "text_to_replace": [
+	        "Andrew Sullivan"
+	    ]
 	}
     ]
 }
