@@ -353,24 +353,48 @@
                 "David Frum"
             ]
         },
-	{
-	    "name": "Robert Kagan",
-	    "text_to_replace": [
-	        "Robert Kagan"
-	    ]
-	},
-	{
-	    "name": "Jonathan Chait",
-	    "text_to_replace": [
-	        "Jonathan Chait",
-		"Jon Chait"
-	    ]
-	},
-	{
-	    "name": "Andrew Sullivan",
-	    "text_to_replace": [
-	        "Andrew Sullivan"
-	    ]
-	}
+        {
+            "name": "Robert Kagan",
+            "text_to_replace": [
+                "Robert Kagan"
+            ]
+        },
+        {
+            "name": "Jonathan Chait",
+            "text_to_replace": [
+                "Jonathan Chait",
+                "Jon Chait"
+            ]
+        },
+        {
+            "name": "Andrew Sullivan",
+            "text_to_replace": [
+                "Andrew Sullivan"
+            ]
+        },
+        {
+            "name": "Max Boot",
+            "text_to_replace": [
+                "Max Boot"
+            ]
+        },
+        {
+            "name": "Machael Hayden",
+            "text_to_replace": [
+                "Michael Hayden"
+            ]
+        },
+        {
+            "name": "James Kirchick",
+            "text_to_replace": [
+                "James Kirchick"
+            ]
+        },
+        {
+            "name": "Henry Kissinger",
+            "text_to_replace": [
+                "Henry Kissinger"
+            ]
+        }
     ]
 }
