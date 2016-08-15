@@ -387,13 +387,20 @@
         {
             "name": "James Kirchick",
             "text_to_replace": [
-                "James Kirchick"
+                "James Kirchick",
+                "Jamie Kirchick"
             ]
         },
         {
             "name": "Henry Kissinger",
             "text_to_replace": [
                 "Henry Kissinger"
+            ]
+        },
+        {
+            "name": "David Frum",
+            "text_to_replace": [
+                "David Frum"
             ]
         }
     ]
